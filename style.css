@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  flex-basis: 20%; /*adjust the width of each item */
+  margin: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+p {
+  text-align: center;
+}
+.download-btn,
+.ee {
+  background-color: dodgerblue;
+  color: white;
+  padding: irem 2 rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.ee {
+  text-decoration: none;
+}
+.a,
+.r {
+  text-align: center;
+}
+.download-btn:hover {
+  background-color: black;
+}
+.ee:hover {
+  background-color: aquamarine;
+}
